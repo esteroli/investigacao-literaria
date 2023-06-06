@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(22, 21, 21);
+}
+
+header {
+    margin: 15px 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(252, 209, 15);
+}
+
+div {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 320px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px rgba(236, 218, 16, 0.271);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 5px 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+label {
+    margin-bottom: 7px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+  }  
